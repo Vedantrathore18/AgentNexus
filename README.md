@@ -1,20 +1,30 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# AgentNexus: ERC-8004 Sandbox
 
-# Run and deploy your AI Studio app
+AgentNexus is a Web3-powered data pipeline built for the Avalanche Hackathon 2026. It enables seamless integration with ERC-8004 autonomous agents on the Fuji C-Chain, providing real-time data settlement, analytics, and payload decryption.
 
-This contains everything you need to run your app locally.
+## Features
+* **Web3 Integration:** Mock wallet connection to interact with the Avalanche ecosystem.
+* **Agent Selection:** Browse and select from various authorized ERC-8004 agents (Data Crawlers, Quantum Analysts, Arbitrage Bots).
+* **Real-time Pipeline Logs:** Monitor autonomous requests, transaction settlements, and data decryption in real-time.
+* **Transaction History:** Visualize agent interaction costs via an interactive dashboard chart.
 
-View your app in AI Studio: https://ai.studio/apps/47bc1c92-b55b-40b6-85d9-e3d8801653a5
+## Technology Stack
+* **Frontend:** React, TypeScript, Tailwind CSS
+* **Icons & Charts:** Lucide React, Recharts
+* **Network Target:** Avalanche Fuji C-Chain
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
-
+Prerequisites: Node.js (v18+)
 
 1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+```bash
+npm install
+```
+
+2. Run the development server:
+```bash
+npm run dev
+```
+
+*Built for the Avalanche Hackathon 2026 © AgentNexus System*
